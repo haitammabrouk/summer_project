@@ -35,13 +35,9 @@ git clone https://github.com/haitammabrouk/summer_project
 2. Navigate to the project directory:
 
 3. Install dependencies for both backend and frontend:
-// For backend
-cd backend
-mvn install
+For backend : mvn install
 
-// For frontend
-cd frontend
-npm install
+For frontend : npm install
 
 
 4. Configure database settings in `application.properties` file located in the `backend/src/main/resources` directory.
