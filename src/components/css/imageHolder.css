@@ -1,0 +1,41 @@
+.image-upload-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 140px;
+}
+
+.box-decoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.image-upload-input {
+    display: none;
+}
+
+
+
+.img-display-before {
+    height: 100px;
+    width: 100px;
+
+}
+
+.img-display-after {
+    height: 20vh;
+    width: 20vh; /* Set the width to match the height to create a square */
+    background-color: #ccc; /* Grey color */
+    object-fit: cover; /* Ensure the image covers the entire square */
+  }

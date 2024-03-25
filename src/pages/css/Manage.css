@@ -1,0 +1,9 @@
+/* Manage.css */
+.blur-background {
+    backdrop-filter: blur(2px); /* Apply the blur effect */
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent background color */
+}
+
+.clear-form {
+    background: #ffffff; /* White background to make the form clear */
+}
