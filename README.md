@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Academic Project Management Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Academic Project Management Platform is a web application designed to manage final year projects of engineering students. It provides a centralized platform for students, project advisors (encadrants), and administrators to collaborate effectively throughout the project lifecycle. Built using modern web technologies such as Spring Boot, Spring MVC, Spring Data, React.js, and Tailwind CSS, the platform offers a seamless user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. Project Submission and Modification
+Students can submit their final year projects within a specified deadline. They can also modify their projects under the deadline, allowing for iterative improvements based on feedback.
 
-### `npm start`
+### 2. Project Advisor (Encadrant) Role
+Project advisors have access to reports of their assigned students' projects. They can provide feedback, notes, and assign grades to evaluate the project's progress. Additionally, they can determine whether a student has successfully completed their final year project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Administration Access
+Administrators have access to all projects on the platform. They oversee the entire project management process, including setting deadlines, managing user roles, and archiving successful projects for future reference.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Project Archiving
+Successfully completed projects are archived for future reference. This allows future students to benefit from past projects and provides a repository of successful project examples.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Spring Boot**: Provides the backend framework for building robust and scalable Java applications.
+- **Spring MVC**: Facilitates the development of web applications based on the Model-View-Controller architecture.
+- **Spring Data**: Simplifies data access and persistence by providing a consistent data access layer.
+- **React.js**: A JavaScript library for building user interfaces, enabling dynamic and interactive frontend experiences.
+- **Tailwind CSS**: A utility-first CSS framework that helps in quickly building custom designs with minimal effort.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Academic Project Management Platform locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+git clone https://github.com/haitammabrouk/summer_project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies for both backend and frontend:
+// For backend
+cd backend
+mvn install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+// For frontend
+cd frontend
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Configure database settings in `application.properties` file located in the `backend/src/main/resources` directory.
 
-## Learn More
+5. Run the backend server:
+mvn spring-boot:run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Run the frontend development server:
+npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Access the application in your web browser at `http://localhost:3000`.
 
-### Code Splitting
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Mabrouk Haitam
